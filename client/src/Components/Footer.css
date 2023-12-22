@@ -59,4 +59,15 @@ p{
     .footer-container{
         grid-template-columns: 1fr;
     }
+
+    .left{
+        padding: 0rem;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 4rem 1.5rem;
+        background-color: rgba(19, 19, 19, 0.8);
+    }
+    
 }
