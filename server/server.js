@@ -36,11 +36,11 @@ app.post('/', async (req, res) => {
 app.get('/',async (req,res)=>{
     const docs = await User.find({});
     const latest = docs.pop();
-    res.send("Hello "+ latest.name + "!!!");
+    res.send(latest.name+ " just sent a message for you !!!!");
 });
 
 
 //Listening to the server.
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT ||8000, () => {
     console.log(`Server is running on port ${process.env.PORT}.`);
   });

@@ -8,15 +8,6 @@ import {Route,Routes} from "react-router-dom";
 
 function App() {
 
-  // const [message, setMessage] = useState("");
-
-  // useEffect(() => {
-  //   fetch("http://localhost:8000")
-  //     .then((res) => res.json())
-  //     .then((data) => setMessage(data.message));
-  // }, []);
-
-
   return (
     <>
       <Routes>
@@ -26,9 +17,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
-    /* <div >
-      <h1>{message}</h1>
-    </div> */
   );
 }
 

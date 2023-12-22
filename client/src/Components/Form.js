@@ -13,8 +13,8 @@ const Form = () => {
   }
   
   const handleSubmit = async (e) =>{
-
-    const res = await fetch("http://localhost:8000",{
+    e.preventDefault();
+    const res = await fetch("https://portfolio-backend-xeh4.onrender.com",{
       method:'POST',
       body: JSON.stringify(data),
       headers:{
@@ -26,7 +26,10 @@ const Form = () => {
 
   return (
     <div className="form">
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={(e) =>{
+      handleSubmit(e);
+      e.target.reset();
+    } }>
         <label>Your Name</label>
         <input name="name" type="text" onChange={handleChange}></input>
         <label>Email</label>

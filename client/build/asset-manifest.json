@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4882488b.css",
+    "main.js": "/static/js/main.6f900184.js",
+    "static/media/Python.png": "/static/media/Python.9fcd69bc4fbdc226de65.png",
+    "static/media/lang.png": "/static/media/lang.ed5dbf6afcb17dd84a3b.png",
+    "static/media/Aboutimg.jpg": "/static/media/Aboutimg.2952a89c81af5ce26727.jpg",
+    "static/media/Projectimg.jpg": "/static/media/Projectimg.c3791ec1d46a63d9efb3.jpg",
+    "static/media/Contactimg.jpg": "/static/media/Contactimg.2cf5d1e565a590a52579.jpg",
+    "static/media/utilities.png": "/static/media/utilities.174ba476ce0450b5b713.png",
+    "static/media/Lib.jpeg": "/static/media/Lib.f399b0e3b9d6a21235b4.jpeg",
+    "static/media/Home.jpg": "/static/media/Home.ba5656d737dd08de0d4b.jpg",
+    "static/media/Blockchain.jpg": "/static/media/Blockchain.c7e528a417c05cc99901.jpg",
+    "static/media/IIT-Kanpur.jpg": "/static/media/IIT-Kanpur.cd87b7b0cd3868bf2c59.jpg",
+    "static/media/Decisionpro.jpg": "/static/media/Decisionpro.f2fbd6a266a9309623dc.jpg",
+    "static/media/Chirp.jpg": "/static/media/Chirp.53f6de8377769a98f114.jpg",
+    "index.html": "/index.html",
+    "main.4882488b.css.map": "/static/css/main.4882488b.css.map",
+    "main.6f900184.js.map": "/static/js/main.6f900184.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4882488b.css",
+    "static/js/main.6f900184.js"
+  ]
+}
