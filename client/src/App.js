@@ -7,6 +7,9 @@ import Contact from "./routes/Contact";
 import {Route,Routes} from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+    document.title = 'Akanksha\'s Portfolio'
+}, []);
 
   return (
     <>
