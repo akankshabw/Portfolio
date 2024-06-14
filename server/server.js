@@ -32,6 +32,7 @@ app.post('/', async (req, res) => {
     res.json(doc);
 });
 
+
 //Sending the data to the frontend when a get method is posted
 app.get('/',async (req,res)=>{
     const docs = await User.find({});

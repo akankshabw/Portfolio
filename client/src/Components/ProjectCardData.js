@@ -1,24 +1,42 @@
 import { dblClick } from "@testing-library/user-event/dist/click";
 import Blockchain from "../assets/Blockchain.jpg";
 import Chirp from "../assets/Chirp.jpg";
+import Deep from "../assets/deep.jpeg";
+import Car from "../assets/car.jpeg";
+import Elysium from "../assets/Elysium.png";
 import Decisionpro from "../assets/Decisionpro.jpg";
 
 
 const ProjectCardData = [
     {
-        img: Blockchain,
-        title: "Exploiting Blockchains with Open APIs",
-        content: "This project aimed at implementing  a blockchain based decentralized application which uses APIs to do a certain task. It was an introduction to Blockchain, Web3 and Cryptocurrencies and how decentralized systems work. It also included working Application Programming Interfaces(or APIs) to include great features in an appplication.",
+        img: Elysium,
+        title: "Elysium",
+        content: "This is an integrated web application made using MERN Stack for booking sports courts, gym sessions, swimming slots, and counsellor appointments for the campus community.",
+    },
+    {
+        img: Deep,
+        title: "Deep Learning",
+        content: "In this project, I trained and optimized the performance of deep learning models for various tasks like image classification, digits recognition, customer churn prediction, etc.",
+    },
+    {
+        img: Car,
+        title: "Car Rental System",
+        content: "In this project, I developed a command line based car rental system using Object Oriented Programming and file handling.",
     },
     {
         img: Chirp,
         title: "Chirp : Birdsong Recognition",
-        content: "Birdsong recognition plays a crucial role in various fields, from ecological research to wildlife monitoring. The Chirp project aims to develop an efficient and accurate bird call recognition system using machine learning techniques. The primary goal is to enable the identification of bird species based on their unique vocalizations.",
+        content: "In this, I developed an efficient and accurate bird call recognition system used for identification of bird species based on their unique vocalizations using machine learning techniques.",
+    },
+    {
+        img: Blockchain,
+        title: "Exploiting Blockchains with Open APIs",
+        content: "This project aimed at implementing  a blockchain based decentralized application which uses APIs to do a certain task.",
     },
     {
         img: Decisionpro, 
         title: "Introduction to Decision-Making",
-        content: "The goal of this project is to increase participants' understanding of the neuroscientific principles and theories of decision-making. We examined a variety of research papers discussing various decision-making models. We also studied the role of these decision-making models in day-to-day life through a survey.",
+        content: "The goal of this project is to increase participants' understanding of the neuroscientific principles and theories of decision-making.",
     }
 ]
 

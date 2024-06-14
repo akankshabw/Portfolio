@@ -11,7 +11,7 @@ const AboutContent = () => {
             <h1>Who Am I ?</h1>
             <p>I am a sophomore in the department of Computer Science and Engineering at IIT Kanpur. I love exploring new things and learning new skills. My major interests are web development, machine learning and coding.</p>
         <Link to= "/contact">
-        <button className="btn">CONTACT</button>
+        <button className="btn">RESUME</button>
         </Link>
         </div>
         <div className="right">

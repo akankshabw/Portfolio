@@ -42,6 +42,7 @@
     color:white;
     padding: 0.5rem 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .pro-details p{
@@ -55,7 +56,7 @@
     .project-container{
         max-width: 90%;
         margin: auto;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
 
     .project-container-skills{
@@ -66,7 +67,7 @@
     .proimage{
         width: 100%;
         height:50vh;
-        object-fit: fill;
+        object-fit: auto;
     }
     
 }
