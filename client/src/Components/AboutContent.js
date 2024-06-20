@@ -11,7 +11,7 @@ const AboutContent = () => {
     <div className="card">
         <div className="left">
         <div className='details'>
-            <h1>Who Am I ?</h1>
+            <h1>About me ?</h1>
             <p>I am a third year undergraduate in the department of Computer Science and Engineering at IIT Kanpur. I love exploring new things and learning new skills. My major interests are web development, machine learning and coding.</p>
             <Link to= "/contact">
             <button className="btn">RESUME</button>
