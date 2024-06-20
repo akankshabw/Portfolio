@@ -30,12 +30,18 @@
 }
 
 .project-card{
-    background: #1a1919;
+    border-radius:5%;
+    background:rgba(66, 66, 63, 0.589);
     padding: 1.2rem 1rem;
 }
 
 .project-card img{
     width: 100%;
+}
+
+.github{
+    padding-left:32%;
+    padding-bottom:1%;
 }
 
 .title{
@@ -45,6 +51,9 @@
     text-align: center;
 }
 
+.project-details{
+    height:210px;
+}
 .pro-details p{
     padding-bottom: 1rem;
     font-size: 1.1rem;

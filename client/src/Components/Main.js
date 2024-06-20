@@ -10,7 +10,6 @@ const Main = () => {
             <img className="intro-img" src={Home} alt="Intro-Image" />
         </div>
         <div className="content-project">
-
             <h1>Hello World!!</h1>
             <p>Welcome to my website, a portfolio worth exploring...</p>
             <p></p>

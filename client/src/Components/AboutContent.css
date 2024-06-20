@@ -5,7 +5,18 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-color: rgb(25, 25, 25);
+}
+
+.card{
+    padding:3%;
+    display: flex;
+    margin:5%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    background-color: rgba(66, 66, 63, 0.589);
 }
 
 .about .left{
@@ -14,15 +25,17 @@
     padding: 1rem;
     max-width: 350px;
     font-size: 1.7rem;
+
 }
 
 .about .left p{
     margin: 1.2rem 0;
     font-size: 1.3rem;
+    padding-left: 10px;
 }
 
 .about .right{
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .right .img-container{
@@ -32,13 +45,18 @@
     align-items: center;
     text-align: center;
 }
-
+/* 
 .right .img{
     max-width: 90%;
     border: 1px solid #333;
-    
-}
+} */
 
+.my_img{
+    margin-left: 30%;
+    border-radius: 50%;
+    height: auto;
+    width: 300px;
+}
 .right .top{
     grid-column: 1 / span 8;
     grid-row: 1;

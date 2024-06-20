@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import Main from "../Components/Main.js";
 import Footer from "../Components/Footer.js";
 import AboutContent from '../Components/AboutContent.js';
+import Skills from '../Components/Skills.js';
 //rafce
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     <Navbar />
     <Main />
     <AboutContent />
+    <Skills />
     <Footer />
     </div>
   )

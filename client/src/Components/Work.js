@@ -13,6 +13,7 @@ const Work = () => {
                 img = {val.img}
                 title = {val.title}
                 content = {val.content}
+                link = {val.link}
             />)
         })}
       </div>
